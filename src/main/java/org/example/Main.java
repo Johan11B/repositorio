@@ -15,7 +15,7 @@ public class Main {
         //(byte, short, int, long) enteros
 
         //Ejemplo de byte (-128--127)
-        System.out.println("Por favor ingrese su edad: ");
+        System.out.println("Por favor ingrese su edad ´por favor: ");
         byte edad = entrada.nextByte();
         System.out.println("Su edad es: "+edad);
 
