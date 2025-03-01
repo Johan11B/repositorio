@@ -12,21 +12,50 @@ los conceptos previamente mencionados.
 
 -----FUNCIONALIDADES------
 
-1. Se muestran los diferentes tipos de datos primitivos
-a traves de ejemplos practicos,como byte, short, 
-int, long, float, double, char y boolean.
-2. Uso de Operadores: Implementación de operadores 
+1. Solicita diferentes tipos de entrada al usuario 
+para ejemplificar los tipos de datos primitivos, como
+enteros (byte, short, int, long), decimales (float,
+double), caracteres (char) y booleanos (boolean).
+2. Se exploran los direntes tipos de operadores
 aritméticos, relacionales, lógicos, de asignación, 
 incremento/decremento, ternario y bit a bit.
-3. Estructuras de Control: Uso de if, switch, for, 
-while, do-while, y for-each para realizar
-distintas operaciones.
-4. Interacción con el Usuario: Uso de la clase 
-Scanner para recibir entradas del usuario 
-y procesarlas en tiempo real.
-5. Permite al usuario ingresar varios números y 
-realizar diferentes operaciones de los mismos de 
-manera dinámica.
+3. Se implementa estructuras de control como if-else
+para validar la edad del usuario, while para sumar 
+números ingresados hasta que se introduzca un 0, 
+do-while para ejecutar una cuenta regresiva, 
+for para imprimir números del 1 al 10, 
+for-each para recorrer arreglos y switch para 
+evaluar calificaciones.
+4. La interacción con el usuario se logra mediante 
+Scanner, permitiendo la validación de datos, cálculos
+matemáticos y manipulación de información en 
+diferentes escenarios.
+
+--CALCULADORA--
+5. Se implementa una calculadora que permite realizar 
+diversas operaciones matemáticas a través de un 
+menú interactivo.
+6.  Entre las funciones implementadas se encuentran 
+la suma, donde el usuario especifica cuántos números
+desea sumar y estos se almacenan en una lista antes
+de calcular el total.
+7. La resta, que toma dos números ingresados y
+muestra el resultado.
+8. La multiplicación que sigue una lógica similar
+a la suma, pero con producto acumulado.
+9. La división, que recibe dos valores y 
+los divide.
+10.  La potencia, que utiliza Math.pow() 
+para elevar un número a la potencia deseada.
+11. La raíz cuadrada, que emplea Math.sqrt().
+12. Logaritmo natural con Math.log().
+13. El cálculo del módulo o residuo de un 
+número al dividirlo entre 2.
+14. El menú principal permite elegir entre estas 
+opciones, con un bucle while que mantiene el 
+programa en ejecución hasta que el usuario 
+elige salir.
+
 
 ----INTEGRANTES----
 
