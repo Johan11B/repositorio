@@ -2,13 +2,13 @@ PROYECTO APLICACIÓN DE FUNDAMENTOS DE PROGRAMACIÓN EN JAVA
 
 -----Descripción del Proyecto-----
 
-Este proyecto tiene como objetivo aplicar los fundamentos de la
-programación en Java, incluyendo el uso de variables,
-operadores, estructuras de control y manipulación de 
-datos. Para ello, se implementan diversos ejercicios 
-que permiten al usuario realizar cálculos matemáticos 
-y operaciones mediante una calculadora, aplicando 
-los conceptos previamente mencionados.
+Este proyecto tiene como objetivo aplicar y dar a conocer
+fundamentos de la programación en Java, incluyendo 
+el uso de variables, operadores, estructuras de control 
+y manipulación de datos. Para ello, se implementan 
+diversos ejercicios que permiten al usuario realizar
+cálculos matemáticos y operaciones mediante una 
+calculadora, aplicando los conceptos previamente mencionados.
 
 -----FUNCIONALIDADES------
 
@@ -32,6 +32,7 @@ matemáticos y manipulación de información en
 diferentes escenarios.
 
 --CALCULADORA--
+
 5. Se implementa una calculadora que permite realizar 
 diversas operaciones matemáticas a través de un 
 menú interactivo.
@@ -64,3 +65,13 @@ elige salir.
 3. Juan David Catrillon Varon
 
 ----EVIDENCIA DE USO DE GIT EN RAMAS----
+
+Se utilizaron dos diferentes ramas en nuestro repositorio. 
+A continuación, se describen algunas de ellas:
+1. MAIN: Rama principal donde se integran las 
+funcionalidades terminadas.
+2. feature_johan: utilizada para la 
+implementación de estructuras de control 
+(`if`, `while`, `do-while`).
+Además, los commits y fusiones entre ramas se 
+encuentran documentados en el repositorio de GitHub.
