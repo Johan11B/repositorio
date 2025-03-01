@@ -5,28 +5,30 @@ PROYECTO APLICACIÓN DE FUNDAMENTOS DE PROGRAMACIÓN EN JAVA
 Este proyecto tiene como objetivo aplicar y dar a conocer
 fundamentos de la programación en Java, incluyendo 
 el uso de variables, operadores, estructuras de control 
-y manipulación de datos. Para ello, se implementan 
+y manipulación de datos. Para ello, se implementaron 
 diversos ejercicios que permiten al usuario realizar
 cálculos matemáticos y operaciones mediante una 
 calculadora, aplicando los conceptos previamente mencionados.
 
 -----FUNCIONALIDADES------
 
-1. Solicita diferentes tipos de entrada al usuario 
+1. En primer lugar, se solicita diferentes tipos de entrada al usuario 
 para ejemplificar los tipos de datos primitivos, como
 enteros (byte, short, int, long), decimales (float,
-double), caracteres (char) y booleanos (boolean).
-2. Se exploran los direntes tipos de operadores
+double), caracteres (char) y booleanos (boolean) meidante ejemplos prácticos como preguntar la edad del usuario o su número de documento.
+2. Se implementaron estructuras de control como if-else
+   para validar la edad del usuario, while para sumar
+   números ingresados hasta que se introduzca un 0,
+   do-while para ejecutar una cuenta regresiva,
+   for para imprimir números del 1 al 10,
+   for-each para recorrer arreglos y switch para
+   evaluar calificaciones.Se exploran los direntes tipos de operadores
 aritméticos, relacionales, lógicos, de asignación, 
 incremento/decremento, ternario y bit a bit.
-3. Se implementa estructuras de control como if-else
-para validar la edad del usuario, while para sumar 
-números ingresados hasta que se introduzca un 0, 
-do-while para ejecutar una cuenta regresiva, 
-for para imprimir números del 1 al 10, 
-for-each para recorrer arreglos y switch para 
-evaluar calificaciones.
-4. La interacción con el usuario se logra mediante 
+3. Se exploran los direntes tipos de operadores
+   aritméticos, relacionales, lógicos, de asignación,
+   incremento/decremento, ternario y bit a bit.
+4. La interacción con el usuario se logra mediante la librería 
 Scanner, permitiendo la validación de datos, cálculos
 matemáticos y manipulación de información en 
 diferentes escenarios.
@@ -58,7 +60,8 @@ programa en ejecución hasta que el usuario
 elige salir.
 
 
-----INTEGRANTES----
+----INTEGRANTES DEL GRUPO 
+----
 
 1. Johan Steven Briceño Layton
 2. Daniel Esteban Contreras Motoa

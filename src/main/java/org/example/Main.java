@@ -15,7 +15,7 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
         //---Ejemplos de datos primitivos---//
-
+        System.out.println("TIPOS DE DATOS PRIMITIVOS:");
         //Tipos de dato numérico
         //(byte, short, int, long) enteros
 
@@ -87,6 +87,7 @@ public class Main {
 
 
         //---Estructuras de control---//
+        System.out.println("ESTRUCTURAS DE CONTROL");
         //Estructura if: ejecuta una acción si cierta condición se cumple
         System.out.println("\nEstructura if");
         byte edad_permtitida = 18;
@@ -188,7 +189,7 @@ public class Main {
 
 
         //---Operadores---//
-
+        System.out.println("OPERADORES");
         //Variables
         int a=5;
         int b=6;
