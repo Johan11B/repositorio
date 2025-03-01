@@ -73,5 +73,6 @@ funcionalidades terminadas.
 2. feature_johan: utilizada para la 
 implementación de estructuras de control 
 (`if`, `while`, `do-while`).
+
 Además, los commits y fusiones entre ramas se 
 encuentran documentados en el repositorio de GitHub.
