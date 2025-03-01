@@ -79,9 +79,44 @@ public class Main {
 
 
         //---Estructuras de control---//
+        //Estructura if: ejecuta una acción si cierta condición se cumple
+        System.out.println("\nEstructura if");
+        byte edad_permtitida = 18;
+        System.out.println("Por favor indique su edad: ");
+        byte edad_usuario = entrada.nextByte();
+        if (edad_usuario >=edad_permtitida) {
+            System.out.println("Acceso permitido");
+        }else{
+            System.out.println("Acceso denegado");
+        }
 
 
+        //Estructura while (mientras una condición sea verdadera, ejecutará cierta acción
+        System.out.println("\nEstructura while");
+        int numer = 0;
+        int suma = 0;
 
+        System.out.println("Ingrese números para sumar (0 para salir):");
+
+        while (true) {
+            numer = entrada.nextInt();
+            if (numer == 0) {
+                break;
+            }
+            suma += numer;
+        }
+        System.out.println("Suma total: " + suma);
+
+        //Estructura do-while (similar al while, pero en ese se asegura que el códigp se ejecute al menos una vez
+        System.out.println("\nEstructura do-while");
+        System.out.print("Ingrese un número para la cuenta regresiva: ");
+        int tiempo = entrada.nextInt();
+
+        do {
+            System.out.println(tiempo);
+            tiempo-=1;
+        } while (tiempo > 0);
+        System.out.println("Fin cuenta regresiva");
 
         //---Operadores---//
 
@@ -91,12 +126,12 @@ public class Main {
 
         //---Aritméticos--//
         System.out.println("--ARITMETICOS---");
-        int suma = a + b; // Suma
+        int sum = a + b; // Suma
         int resta = a - b; // Resta
         int multiplicacion = a * b; // Multiplicación
         double division = 30.0/ 10.0; // División se utiliza double
         int modulo = b % a ; // Resto de la división
-        System.out.println("Suma= "+suma);
+        System.out.println("Suma= "+sum);
         System.out.println("Resta="+resta);
         System.out.println("Multiplicacion= "+multiplicacion);
         System.out.println("Division= "+division);
