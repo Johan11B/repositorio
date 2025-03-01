@@ -5,6 +5,14 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+        // IMPLEMENTACION DE LA CLASE CALCULADORA EN EL ARCHIVO MAIN
+
+        Calculadora.Menu();
+
+        //-------------------------------------------------
+
+
         Scanner entrada = new Scanner(System.in);
         //---Ejemplos de datos primitivos---//
 
@@ -222,5 +230,11 @@ public class Main {
         System.out.println("Desplazamiento a la izquierda--> x << 1 = " + (x << 1)); // 1010 -> 10
         System.out.println("Desplazamiento a la derecha--> x >> 1 = " + (x >> 1)); // 0010 -> 2
         System.out.println("Desplazamiento a la derecha sin signo--> x >>> 1 = " + (x >>> 1)); // 0010 -> 2
+
+
+
+
+
+
         }
     }
