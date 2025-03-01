@@ -126,6 +126,69 @@ public class Main {
         } while (tiempo > 0);
         System.out.println("Fin cuenta regresiva");
 
+
+        //Estructura de control FOR: Ejecuta una determinada cantidad de veces.
+        //ejemplo imprimir numeros del 1 al 10
+
+        System.out.println("Estructura for: ");
+        for(int i = 1; i <11; i++){
+            System.out.println(i);
+        }
+
+        //ESTRUCTURA DE CONTROL FOR EACH
+        //El ciclo for-each en Java es una estructura de control que permite recorrer los elementos de
+        // un array o una colección de manera sencilla y eficiente, sin necesidad de gestionar índices manualmente.
+
+        System.out.println("Estructura for each");
+        int numeros[] = new int[5];
+        numeros[0] = 34;
+        numeros[1] = 89;
+        numeros[2] = 87;
+        numeros[3] = 76;
+        numeros[4] = 12;
+
+
+        //en el ejemplo la variable num almacena cada valor del vector numeros
+        for(int num : numeros){
+            System.out.print(num+" --> ");
+        }
+
+
+        //ESTRUCTURA DE CONTROL SWITCH
+        System.out.println();
+        System.out.println("Estructura switch: ");
+        System.out.println("Ingresa tu nota obtenida: 1,2,3,4 o 5");
+        int nota22 = entrada.nextInt();
+
+        switch(nota22){
+            case 1:
+                System.out.println("Tu nota fue de 1, perdiste");
+                break;
+
+            case 2:
+                System.out.println("Tu nota fue de 2, perdiste");
+                break;
+
+            case 3:
+                System.out.println("Tu nota fue de 3, pasaste en la minima nota");
+                break;
+
+            case 4:
+                System.out.println("Tu nota fue de 4, pasaste bien");
+                break;
+
+            case 5:
+                System.out.println("Tu nota fue de 5, pasaste excelentemente");
+                break;
+
+            default:
+                System.out.println("Ingresaste una nota invalida, intenta de nuevo");
+                break;
+        }
+
+
+
+
         //---Operadores---//
 
         //Variables
