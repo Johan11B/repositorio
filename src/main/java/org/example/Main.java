@@ -5,12 +5,9 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome");
-
         Scanner entrada = new Scanner(System.in);
-        //Ejemplos de datos primitivos
+        //---Ejemplos de datos primitivos---//
+
         //Tipos de dato numérico
         //(byte, short, int, long) enteros
 
@@ -31,12 +28,12 @@ public class Main {
 
         //Ejemplo de long (se necesita agregar una "L" o "l" al número
         //calculando la distancia en m de un astro a la tierra según su distancia en años luz
-        long añoLuzenMetros = 9461000000000000L;
+        long anioLuzenMetros = 9461000000000000L;
         //distancia de alpha centauri en años luz
         double distanciaAlpha = 4.37;
         //distancia alpha centauri en metros
         //hay que convertir distanciaAlpha a long
-        long distanciaAlphaMetros = añoLuzenMetros*(long)distanciaAlpha;
+        long distanciaAlphaMetros = anioLuzenMetros*(long)distanciaAlpha;
         System.out.println("La distancia de Alpha Centauri a la Tierra es de "+distanciaAlphaMetros+" metros.");
 
 
@@ -78,6 +75,13 @@ public class Main {
         }else{
             System.out.println("El número "+numero+" es impar");
         }
+
+
+
+        //---Estructuras de control---//
+
+
+
 
         //---Operadores---//
 
