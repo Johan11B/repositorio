@@ -13,6 +13,21 @@ public class Main {
         //-------------------------------------------------
 
 
+        // Oportunidades de mejora:
+       /*
+        1. Modularización: Divide el código en métodos más pequeños y específicos para mejorar la legibilidad y el mantenimiento.
+        2. Uso de constantes: Define constantes para valores que se repiten o tienen un significado especial.
+        3. Manejo de recursos: Asegúrate de cerrar el Scanner al final para liberar recursos.
+        4. Validación de entrada: Agrega validaciones para las entradas del usuario para manejar posibles errores.
+        5. Comentarios y formato: Mejora los comentarios y el formato del código para mayor claridad.
+
+        Al ingresar datos no válidos, el programa puede lanzar una excepción y terminar abruptamente.
+        Para manejar esto, pueden agregar bloques try-catch para capturar y manejar las excepciones.
+
+        El programa actualmente no tiene una forma de salir del bucle while en caso de ingresar un valor inválido.
+        Pueden agregar una condición de salida para permitir al usuario salir del programa de manera segura.
+        */
+
         Scanner entrada = new Scanner(System.in);
         //---Ejemplos de datos primitivos---//
         System.out.println("TIPOS DE DATOS PRIMITIVOS:");

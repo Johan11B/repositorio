@@ -5,6 +5,20 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Calculadora {
+
+    /*
+    1. Modularización: Divide el código en métodos más pequeños y específicos para mejorar la legibilidad y el mantenimiento.
+    2. Uso de constantes: Define constantes para valores que se repiten o tienen un significado especial.
+    3. Manejo de recursos: Asegúrate de cerrar el Scanner al final para liberar recursos.
+    4. Validación de entrada: Agrega validaciones para las entradas del usuario para manejar posibles errores.
+    5. Comentarios y formato: Mejora los comentarios y el formato del código para mayor claridad.
+    6. Uso de genéricos: Especifica el tipo de la lista números para evitar advertencias de tipo.
+    7. Corrección de errores: Corrige el error en el cálculo del módulo, que debería ser numk % 2.0 en lugar de numk % 2.
+    8. Mejora de la precisión: Usa double en lugar de float para mayor precisión en los cálculos.
+
+    Actualmente el programa cuanta con fallos, por ejemplo al ingresar una letra en lugar de un numero, el programa se cae.
+
+    */
     public static List<Integer> numeros = new ArrayList();
     private static Scanner input = new Scanner(System.in);
 
